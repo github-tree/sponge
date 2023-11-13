@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gin/response"
-	rl "github.com/zhufuyi/sponge/pkg/shield/ratelimit"
+	"github.com/github-tree/sponge/pkg/gin/response"
+	rl "github.com/github-tree/sponge/pkg/shield/ratelimit"
 
 	"github.com/gin-gonic/gin"
 )

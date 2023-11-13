@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gin/response"
-	"github.com/zhufuyi/sponge/pkg/gohttp"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/github-tree/sponge/pkg/gin/response"
+	"github.com/github-tree/sponge/pkg/gohttp"
+	"github.com/github-tree/sponge/pkg/utils"
 
 	"github.com/gin-gonic/gin"
 )

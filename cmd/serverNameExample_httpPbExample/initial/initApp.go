@@ -8,15 +8,15 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/zhufuyi/sponge/configs"
-	"github.com/zhufuyi/sponge/internal/config"
+	"github.com/github-tree/sponge/configs"
+	"github.com/github-tree/sponge/internal/config"
 
-	//"github.com/zhufuyi/sponge/internal/model"
+	//"github.com/github-tree/sponge/internal/model"
 
-	"github.com/zhufuyi/sponge/pkg/logger"
-	"github.com/zhufuyi/sponge/pkg/nacoscli"
-	"github.com/zhufuyi/sponge/pkg/stat"
-	"github.com/zhufuyi/sponge/pkg/tracer"
+	"github.com/github-tree/sponge/pkg/logger"
+	"github.com/github-tree/sponge/pkg/nacoscli"
+	"github.com/github-tree/sponge/pkg/stat"
+	"github.com/github-tree/sponge/pkg/tracer"
 
 	"github.com/jinzhu/copier"
 )

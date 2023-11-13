@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gofile"
-	"github.com/zhufuyi/sponge/pkg/jy2struct"
+	"github.com/github-tree/sponge/pkg/gofile"
+	"github.com/github-tree/sponge/pkg/jy2struct"
 
 	"github.com/spf13/cobra"
 )

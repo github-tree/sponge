@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gobash"
-	"github.com/zhufuyi/sponge/pkg/gofile"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/github-tree/sponge/pkg/gobash"
+	"github.com/github-tree/sponge/pkg/gofile"
+	"github.com/github-tree/sponge/pkg/utils"
 
 	"github.com/spf13/cobra"
 )
@@ -74,7 +74,7 @@ func runUpgrade(targetVersion string) (string, error) {
 
 func runUpgradeCommand(targetVersion string) error {
 	ctx, _ := context.WithTimeout(context.Background(), time.Minute*3) //nolint
-	result := gobash.Run(ctx, "go", "install", "github.com/zhufuyi/sponge/cmd/sponge@"+targetVersion)
+	result := gobash.Run(ctx, "go", "install", "github.com/github-tree/sponge/cmd/sponge@"+targetVersion)
 	for v := range result.StdOut {
 		_ = v
 	}
@@ -187,7 +187,7 @@ func getLatestVersion(s string) string {
 
 func updateSpongeInternalPlugin(targetVersion string) error {
 	ctx, _ := context.WithTimeout(context.Background(), time.Minute) //nolint
-	result := gobash.Run(ctx, "go", "install", "github.com/zhufuyi/sponge/cmd/protoc-gen-go-gin@"+targetVersion)
+	result := gobash.Run(ctx, "go", "install", "github.com/github-tree/sponge/cmd/protoc-gen-go-gin@"+targetVersion)
 	for v := range result.StdOut {
 		_ = v
 	}
@@ -196,7 +196,7 @@ func updateSpongeInternalPlugin(targetVersion string) error {
 	}
 
 	ctx, _ = context.WithTimeout(context.Background(), time.Minute) //nolint
-	result = gobash.Run(ctx, "go", "install", "github.com/zhufuyi/sponge/cmd/protoc-gen-go-rpc-tmpl@"+targetVersion)
+	result = gobash.Run(ctx, "go", "install", "github.com/github-tree/sponge/cmd/protoc-gen-go-rpc-tmpl@"+targetVersion)
 	for v := range result.StdOut {
 		_ = v
 	}

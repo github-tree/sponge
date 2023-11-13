@@ -3,7 +3,7 @@ package mysql
 import (
 	"context"
 
-	"github.com/zhufuyi/sponge/pkg/mysql/query"
+	"github.com/github-tree/sponge/pkg/mysql/query"
 
 	"gorm.io/gorm"
 )

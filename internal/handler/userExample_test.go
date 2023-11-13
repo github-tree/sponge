@@ -5,15 +5,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/internal/cache"
-	"github.com/zhufuyi/sponge/internal/dao"
-	"github.com/zhufuyi/sponge/internal/model"
-	"github.com/zhufuyi/sponge/internal/types"
+	"github.com/github-tree/sponge/internal/cache"
+	"github.com/github-tree/sponge/internal/dao"
+	"github.com/github-tree/sponge/internal/model"
+	"github.com/github-tree/sponge/internal/types"
 
-	"github.com/zhufuyi/sponge/pkg/gohttp"
-	"github.com/zhufuyi/sponge/pkg/gotest"
-	"github.com/zhufuyi/sponge/pkg/mysql/query"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/github-tree/sponge/pkg/gohttp"
+	"github.com/github-tree/sponge/pkg/gotest"
+	"github.com/github-tree/sponge/pkg/mysql/query"
+	"github.com/github-tree/sponge/pkg/utils"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/jinzhu/copier"

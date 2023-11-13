@@ -4,7 +4,7 @@ package etcd
 import (
 	"encoding/json"
 
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
+	"github.com/github-tree/sponge/pkg/servicerd/registry"
 )
 
 func marshal(si *registry.ServiceInstance) (string, error) {

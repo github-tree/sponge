@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/grpc/interceptor"
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
+	"github.com/github-tree/sponge/pkg/grpc/interceptor"
+	"github.com/github-tree/sponge/pkg/servicerd/registry"
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"

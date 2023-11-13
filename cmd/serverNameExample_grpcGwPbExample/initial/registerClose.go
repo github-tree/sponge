@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/zhufuyi/sponge/internal/config"
-	//"github.com/zhufuyi/sponge/internal/rpcclient"
+	"github.com/github-tree/sponge/internal/config"
+	//"github.com/github-tree/sponge/internal/rpcclient"
 
-	"github.com/zhufuyi/sponge/pkg/app"
-	"github.com/zhufuyi/sponge/pkg/tracer"
+	"github.com/github-tree/sponge/pkg/app"
+	"github.com/github-tree/sponge/pkg/tracer"
 )
 
 // RegisterClose register for released resources

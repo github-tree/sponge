@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/configs"
-	"github.com/zhufuyi/sponge/internal/config"
+	"github.com/github-tree/sponge/configs"
+	"github.com/github-tree/sponge/internal/config"
 
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/github-tree/sponge/pkg/servicerd/registry"
+	"github.com/github-tree/sponge/pkg/utils"
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/zhufuyi/sponge/pkg/sql2code/parser"
+	"github.com/github-tree/sponge/pkg/sql2code/parser"
 )
 
 // Args generate code arguments

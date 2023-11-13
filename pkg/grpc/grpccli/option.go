@@ -3,7 +3,7 @@ package grpccli
 import (
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
+	"github.com/github-tree/sponge/pkg/servicerd/registry"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

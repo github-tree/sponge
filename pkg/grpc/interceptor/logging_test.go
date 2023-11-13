@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/logger"
+	"github.com/github-tree/sponge/pkg/logger"
 )
 
 func TestUnaryClientLog(t *testing.T) {

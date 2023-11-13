@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/internal/model"
+	"github.com/github-tree/sponge/internal/model"
 
-	"github.com/zhufuyi/sponge/pkg/gotest"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/github-tree/sponge/pkg/gotest"
+	"github.com/github-tree/sponge/pkg/utils"
 
 	"github.com/stretchr/testify/assert"
 )

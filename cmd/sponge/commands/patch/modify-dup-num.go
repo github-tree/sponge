@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zhufuyi/sponge/pkg/gofile"
-	"github.com/zhufuyi/sponge/pkg/krand"
+	"github.com/github-tree/sponge/pkg/gofile"
+	"github.com/github-tree/sponge/pkg/krand"
 
 	"github.com/spf13/cobra"
 )

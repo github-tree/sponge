@@ -6,9 +6,9 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/zhufuyi/sponge/pkg/replacer"
-	"github.com/zhufuyi/sponge/pkg/sql2code"
-	"github.com/zhufuyi/sponge/pkg/sql2code/parser"
+	"github.com/github-tree/sponge/pkg/replacer"
+	"github.com/github-tree/sponge/pkg/sql2code"
+	"github.com/github-tree/sponge/pkg/sql2code/parser"
 
 	"github.com/huandu/xstrings"
 	"github.com/spf13/cobra"
@@ -236,7 +236,7 @@ func addHTTPFields(moduleName string, serverName string, projectName string, rep
 			Old: appConfigFileMark,
 			New: httpServerConfigCode,
 		},
-		// replace github.com/zhufuyi/sponge/templates/sponge
+		// replace github.com/github-tree/sponge/templates/sponge
 		{
 			Old: selfPackageName + "/" + r.GetSourcePath(),
 			New: moduleName,
@@ -250,12 +250,12 @@ func addHTTPFields(moduleName string, serverName string, projectName string, rep
 			New: "",
 		},
 		{
-			Old: "github.com/zhufuyi/sponge",
+			Old: "github.com/github-tree/sponge",
 			New: moduleName,
 		},
 		{
 			Old: moduleName + "/pkg",
-			New: "github.com/zhufuyi/sponge/pkg",
+			New: "github.com/github-tree/sponge/pkg",
 		},
 		{
 			Old: "sponge api docs",

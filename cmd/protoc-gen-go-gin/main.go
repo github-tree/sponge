@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhufuyi/sponge/cmd/protoc-gen-go-gin/internal/generate/handler"
-	"github.com/zhufuyi/sponge/cmd/protoc-gen-go-gin/internal/generate/router"
-	"github.com/zhufuyi/sponge/cmd/protoc-gen-go-gin/internal/generate/service"
+	"github.com/github-tree/sponge/cmd/protoc-gen-go-gin/internal/generate/handler"
+	"github.com/github-tree/sponge/cmd/protoc-gen-go-gin/internal/generate/router"
+	"github.com/github-tree/sponge/cmd/protoc-gen-go-gin/internal/generate/service"
 
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/types/pluginpb"

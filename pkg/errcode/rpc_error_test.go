@@ -2,7 +2,7 @@ package errcode
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/github-tree/sponge/pkg/utils"
 	"net/http"
 	"testing"
 	"time"

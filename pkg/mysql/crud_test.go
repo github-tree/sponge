@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gotest"
-	"github.com/zhufuyi/sponge/pkg/mysql/query"
+	"github.com/github-tree/sponge/pkg/gotest"
+	"github.com/github-tree/sponge/pkg/mysql/query"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/assert"

@@ -4,7 +4,7 @@
 package model
 
 import (
-	"github.com/zhufuyi/sponge/pkg/mysql"
+	"github.com/github-tree/sponge/pkg/mysql"
 )
 
 // UserExample object fields mapping table

@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/zhufuyi/sponge/pkg/krand"
+	"github.com/github-tree/sponge/pkg/krand"
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"

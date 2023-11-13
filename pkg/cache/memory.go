@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/encoding"
+	"github.com/github-tree/sponge/pkg/encoding"
 
 	"github.com/dgraph-io/ristretto"
 )

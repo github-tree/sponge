@@ -5,22 +5,22 @@ import (
 	"testing"
 	"time"
 
-	serverNameExampleV1 "github.com/zhufuyi/sponge/api/serverNameExample/v1"
-	"github.com/zhufuyi/sponge/internal/cache"
-	"github.com/zhufuyi/sponge/internal/dao"
-	"github.com/zhufuyi/sponge/internal/ecode"
-	"github.com/zhufuyi/sponge/internal/model"
+	serverNameExampleV1 "github.com/github-tree/sponge/api/serverNameExample/v1"
+	"github.com/github-tree/sponge/internal/cache"
+	"github.com/github-tree/sponge/internal/dao"
+	"github.com/github-tree/sponge/internal/ecode"
+	"github.com/github-tree/sponge/internal/model"
 
-	"github.com/zhufuyi/sponge/pkg/gin/response"
-	"github.com/zhufuyi/sponge/pkg/gohttp"
-	"github.com/zhufuyi/sponge/pkg/gotest"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/github-tree/sponge/pkg/gin/response"
+	"github.com/github-tree/sponge/pkg/gohttp"
+	"github.com/github-tree/sponge/pkg/gotest"
+	"github.com/github-tree/sponge/pkg/utils"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/gin-gonic/gin"
+	"github.com/github-tree/sponge/api/types"
 	"github.com/jinzhu/copier"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhufuyi/sponge/api/types"
 )
 
 func newUserExamplePbHandler() *gotest.Handler {

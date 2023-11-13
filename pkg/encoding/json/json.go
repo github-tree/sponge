@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"reflect"
 
-	"github.com/zhufuyi/sponge/pkg/encoding"
+	"github.com/github-tree/sponge/pkg/encoding"
 
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"

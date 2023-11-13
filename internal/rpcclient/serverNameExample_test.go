@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/configs"
-	"github.com/zhufuyi/sponge/internal/config"
+	"github.com/github-tree/sponge/configs"
+	"github.com/github-tree/sponge/internal/config"
 
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/github-tree/sponge/pkg/utils"
 
 	"github.com/stretchr/testify/assert"
 )

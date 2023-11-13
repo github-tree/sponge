@@ -1,4 +1,4 @@
-module github.com/zhufuyi/sponge
+module github.com/github-tree/sponge
 
 go 1.19
 

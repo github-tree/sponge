@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/internal/cache"
-	"github.com/zhufuyi/sponge/internal/model"
+	"github.com/github-tree/sponge/internal/cache"
+	"github.com/github-tree/sponge/internal/model"
 
-	"github.com/zhufuyi/sponge/pkg/gotest"
-	"github.com/zhufuyi/sponge/pkg/mysql/query"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/github-tree/sponge/pkg/gotest"
+	"github.com/github-tree/sponge/pkg/mysql/query"
+	"github.com/github-tree/sponge/pkg/utils"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/assert"

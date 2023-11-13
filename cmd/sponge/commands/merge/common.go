@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gobash"
-	"github.com/zhufuyi/sponge/pkg/gofile"
+	"github.com/github-tree/sponge/pkg/gobash"
+	"github.com/github-tree/sponge/pkg/gofile"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/servicerd/registry"
+	"github.com/github-tree/sponge/pkg/servicerd/registry"
 
 	"github.com/hashicorp/consul/api"
 )

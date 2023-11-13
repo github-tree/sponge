@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/zhufuyi/sponge/pkg/container/group"
-	"github.com/zhufuyi/sponge/pkg/errcode"
-	"github.com/zhufuyi/sponge/pkg/shield/circuitbreaker"
+	"github.com/github-tree/sponge/pkg/container/group"
+	"github.com/github-tree/sponge/pkg/errcode"
+	"github.com/github-tree/sponge/pkg/shield/circuitbreaker"
 	"google.golang.org/grpc/codes"
 
 	"github.com/stretchr/testify/assert"

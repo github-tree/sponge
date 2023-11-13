@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/zhufuyi/sponge/cmd/sponge/commands/patch"
+	"github.com/github-tree/sponge/cmd/sponge/commands/patch"
 
 	"github.com/spf13/cobra"
 )

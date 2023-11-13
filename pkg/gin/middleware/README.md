@@ -73,7 +73,7 @@ Adaptive flow limitation based on hardware resources.
 #### common authorization
 
 ```go
-import "github.com/zhufuyi/sponge/pkg/jwt"
+import "github.com/github-tree/sponge/pkg/jwt"
 
 func main() {
     r := gin.Default()
@@ -109,7 +109,7 @@ func Login(c *gin.Context) {
 #### custom authorization
 
 ```go
-import "github.com/zhufuyi/sponge/pkg/jwt"
+import "github.com/github-tree/sponge/pkg/jwt"
 
 func main() {
     r := gin.Default()

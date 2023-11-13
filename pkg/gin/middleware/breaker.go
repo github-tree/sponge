@@ -3,9 +3,9 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/zhufuyi/sponge/pkg/container/group"
-	"github.com/zhufuyi/sponge/pkg/gin/response"
-	"github.com/zhufuyi/sponge/pkg/shield/circuitbreaker"
+	"github.com/github-tree/sponge/pkg/container/group"
+	"github.com/github-tree/sponge/pkg/gin/response"
+	"github.com/github-tree/sponge/pkg/shield/circuitbreaker"
 
 	"github.com/gin-gonic/gin"
 )

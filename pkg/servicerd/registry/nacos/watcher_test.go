@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/nacoscli"
+	"github.com/github-tree/sponge/pkg/nacoscli"
 
 	"github.com/nacos-group/nacos-sdk-go/v2/clients/naming_client"
 	"github.com/stretchr/testify/assert"

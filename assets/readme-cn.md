@@ -1,4 +1,4 @@
-[sponge](https://github.com/zhufuyi/sponge) 是一个集成了`自动生成代码`、`web和微服务框架`、`基础开发框架`的golang生产力工具。sponge拥有丰富的生成代码命令，生成不同的功能代码可以组合成完整的服务(类似人为打散的海绵细胞可以自动重组成一个新的海绵)。代码解耦模块化设计，很容易构建出从开发到部署的完整工程项目，让你开发web或微服务项目轻而易举、事半功倍，golang也可以"低代码开发"。
+[sponge](https://github.com/github-tree/sponge) 是一个集成了`自动生成代码`、`web和微服务框架`、`基础开发框架`的golang生产力工具。sponge拥有丰富的生成代码命令，生成不同的功能代码可以组合成完整的服务(类似人为打散的海绵细胞可以自动重组成一个新的海绵)。代码解耦模块化设计，很容易构建出从开发到部署的完整工程项目，让你开发web或微服务项目轻而易举、事半功倍，golang也可以"低代码开发"。
 
 <br>
 
@@ -67,8 +67,8 @@ sponge包含丰富的组件(按需使用)：
 - 鉴权 [jwt](https://github.com/golang-jwt/jwt)
 - 校验 [validator](https://github.com/go-playground/validator)
 - 消息组件 [rabbitmq](github.com/rabbitmq/amqp091-go)
-- 自适应限流 [ratelimit](https://github.com/zhufuyi/sponge/tree/main/pkg/shield/ratelimit)
-- 自适应熔断 [circuitbreaker](https://github.com/zhufuyi/sponge/tree/main/pkg/shield/circuitbreaker)
+- 自适应限流 [ratelimit](https://github.com/github-tree/sponge/tree/main/pkg/shield/ratelimit)
+- 自适应熔断 [circuitbreaker](https://github.com/github-tree/sponge/tree/main/pkg/shield/circuitbreaker)
 - 链路跟踪 [opentelemetry](https://github.com/open-telemetry/opentelemetry-go)
 - 监控 [prometheus](https://github.com/prometheus/client_golang/prometheus), [grafana](https://github.com/grafana/grafana)
 - 服务注册与发现 [etcd](https://github.com/etcd-io/etcd), [consul](https://github.com/hashicorp/consul), [nacos](https://github.com/alibaba/nacos)
@@ -115,7 +115,7 @@ sponge包含丰富的组件(按需使用)：
 
 **安装sponge：**
 
-支持在windows、mac、linux环境下安装sponge，点击[查看安装说明](https://github.com/zhufuyi/sponge/blob/main/assets/install-cn.md)。
+支持在windows、mac、linux环境下安装sponge，点击[查看安装说明](https://github.com/github-tree/sponge/blob/main/assets/install-cn.md)。
 
 安装完成sponge后，启动UI服务：
 
@@ -139,19 +139,19 @@ sponge run
 
 不包含具体业务逻辑代码。
 
-- [1_web-gin-CRUD](https://github.com/zhufuyi/sponge_examples/tree/main/1_web-gin-CRUD)
-- [2_micro-grpc-CRUD](https://github.com/zhufuyi/sponge_examples/tree/main/2_micro-grpc-CRUD)
-- [3_web-gin-protobuf](https://github.com/zhufuyi/sponge_examples/tree/main/3_web-gin-protobuf)
-- [4_micro-grpc-protobuf](https://github.com/zhufuyi/sponge_examples/tree/main/4_micro-grpc-protobuf)
-- [5_micro-gin-rpc-gateway](https://github.com/zhufuyi/sponge_examples/tree/main/5_micro-gin-rpc-gateway)
-- [6_micro-cluster](https://github.com/zhufuyi/sponge_examples/tree/main/6_micro-cluster)
+- [1_web-gin-CRUD](https://github.com/github-tree/sponge_examples/tree/main/1_web-gin-CRUD)
+- [2_micro-grpc-CRUD](https://github.com/github-tree/sponge_examples/tree/main/2_micro-grpc-CRUD)
+- [3_web-gin-protobuf](https://github.com/github-tree/sponge_examples/tree/main/3_web-gin-protobuf)
+- [4_micro-grpc-protobuf](https://github.com/github-tree/sponge_examples/tree/main/4_micro-grpc-protobuf)
+- [5_micro-gin-rpc-gateway](https://github.com/github-tree/sponge_examples/tree/main/5_micro-gin-rpc-gateway)
+- [6_micro-cluster](https://github.com/github-tree/sponge_examples/tree/main/6_micro-cluster)
 
 #### 完整项目示例
 
 包括具体业务逻辑代码。
 
-- [7_community-single](https://github.com/zhufuyi/sponge_examples/tree/main/7_community-single)
-- [8_community-cluster](https://github.com/zhufuyi/sponge_examples/tree/main/8_community-cluster)
+- [7_community-single](https://github.com/github-tree/sponge_examples/tree/main/7_community-single)
+- [8_community-cluster](https://github.com/github-tree/sponge_examples/tree/main/8_community-cluster)
 
 <br>
 

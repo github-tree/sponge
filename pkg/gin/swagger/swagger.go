@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/zhufuyi/sponge/pkg/gofile"
+	"github.com/github-tree/sponge/pkg/gofile"
 
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"

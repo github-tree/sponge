@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/github-tree/sponge/pkg/utils"
 )
 
 func TestSubscriber(t *testing.T) {

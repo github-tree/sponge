@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhufuyi/sponge/internal/model"
+	"github.com/github-tree/sponge/internal/model"
 
-	"github.com/zhufuyi/sponge/pkg/cache"
-	"github.com/zhufuyi/sponge/pkg/encoding"
+	"github.com/github-tree/sponge/pkg/cache"
+	"github.com/github-tree/sponge/pkg/encoding"
 )
 
 // delete the templates code start

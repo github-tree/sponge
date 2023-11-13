@@ -6,9 +6,9 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/zhufuyi/sponge/pkg/replacer"
-	"github.com/zhufuyi/sponge/pkg/sql2code"
-	"github.com/zhufuyi/sponge/pkg/sql2code/parser"
+	"github.com/github-tree/sponge/pkg/replacer"
+	"github.com/github-tree/sponge/pkg/sql2code"
+	"github.com/github-tree/sponge/pkg/sql2code/parser"
 
 	"github.com/spf13/cobra"
 )
@@ -159,7 +159,7 @@ func addHandlerFields(moduleName string, r replacer.Replacer, codes map[string]s
 			New: moduleName,
 		},
 		{
-			Old: "github.com/zhufuyi/sponge",
+			Old: "github.com/github-tree/sponge",
 			New: moduleName,
 		},
 		{
@@ -168,7 +168,7 @@ func addHandlerFields(moduleName string, r replacer.Replacer, codes map[string]s
 		},
 		{
 			Old: moduleName + "/pkg",
-			New: "github.com/zhufuyi/sponge/pkg",
+			New: "github.com/github-tree/sponge/pkg",
 		},
 		{
 			Old:             "UserExample",

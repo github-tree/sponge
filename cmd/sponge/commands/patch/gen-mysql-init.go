@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/zhufuyi/sponge/cmd/sponge/commands/generate"
-	"github.com/zhufuyi/sponge/pkg/gofile"
-	"github.com/zhufuyi/sponge/pkg/replacer"
+	"github.com/github-tree/sponge/cmd/sponge/commands/generate"
+	"github.com/github-tree/sponge/pkg/gofile"
+	"github.com/github-tree/sponge/pkg/replacer"
 
 	"github.com/spf13/cobra"
 )
@@ -116,12 +116,12 @@ func addMysqlAndRedisInitFields(moduleName string) []replacer.Field {
 
 	fields = append(fields, []replacer.Field{
 		{
-			Old:             "github.com/zhufuyi/sponge/internal",
+			Old:             "github.com/github-tree/sponge/internal",
 			New:             moduleName + "/internal",
 			IsCaseSensitive: false,
 		},
 		{
-			Old:             "github.com/zhufuyi/sponge/configs",
+			Old:             "github.com/github-tree/sponge/configs",
 			New:             moduleName + "/configs",
 			IsCaseSensitive: false,
 		},

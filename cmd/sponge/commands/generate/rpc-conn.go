@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zhufuyi/sponge/pkg/replacer"
+	"github.com/github-tree/sponge/pkg/replacer"
 
 	"github.com/spf13/cobra"
 )
@@ -109,11 +109,11 @@ func addRPCConnectionFields(moduleName string, serverName string) []replacer.Fie
 
 	fields = append(fields, []replacer.Field{
 		{
-			Old: "github.com/zhufuyi/sponge/configs",
+			Old: "github.com/github-tree/sponge/configs",
 			New: moduleName + "/configs",
 		},
 		{
-			Old: "github.com/zhufuyi/sponge/internal/config",
+			Old: "github.com/github-tree/sponge/internal/config",
 			New: moduleName + "/internal/config",
 		},
 		{

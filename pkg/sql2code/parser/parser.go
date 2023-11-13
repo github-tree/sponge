@@ -437,7 +437,7 @@ func getModelStructCode(data tmplData, importPaths []string, isEmbed bool) (stri
 				newImportPaths = append(newImportPaths, path)
 			}
 		}
-		newImportPaths = append(newImportPaths, "github.com/zhufuyi/sponge/pkg/mysql")
+		newImportPaths = append(newImportPaths, "github.com/github-tree/sponge/pkg/mysql")
 	} else {
 		for i, field := range data.Fields {
 			if strings.Contains(field.GoType, "time.Time") {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/zhufuyi/sponge/pkg/krand"
+	"github.com/github-tree/sponge/pkg/krand"
 
 	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
 	"go.uber.org/zap"

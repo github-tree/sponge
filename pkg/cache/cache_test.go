@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/encoding"
-	"github.com/zhufuyi/sponge/pkg/gotest"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/github-tree/sponge/pkg/encoding"
+	"github.com/github-tree/sponge/pkg/gotest"
+	"github.com/github-tree/sponge/pkg/utils"
 
 	"github.com/stretchr/testify/assert"
 )

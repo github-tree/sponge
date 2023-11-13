@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/zhufuyi/sponge/cmd/sponge/commands/generate"
+	"github.com/github-tree/sponge/cmd/sponge/commands/generate"
 
 	"github.com/spf13/cobra"
 )
@@ -21,7 +21,7 @@ func NewRootCMD() *cobra.Command {
 		Use: "sponge",
 		Long: `Sponge is a powerful golang productivity tool that integrates automatic code generation, 
 web and microservice framework, basic development framework.
-repo: https://github.com/zhufuyi/sponge
+repo: https://github.com/github-tree/sponge
 docs: https://go-sponge.com`,
 		SilenceErrors: true,
 		SilenceUsage:  true,

@@ -3,7 +3,7 @@ package gtls
 import (
 	"testing"
 
-	"github.com/zhufuyi/sponge/pkg/grpc/gtls/certfile"
+	"github.com/github-tree/sponge/pkg/grpc/gtls/certfile"
 
 	"github.com/stretchr/testify/assert"
 )

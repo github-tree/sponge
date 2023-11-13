@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/errcode"
-	rl "github.com/zhufuyi/sponge/pkg/shield/ratelimit"
+	"github.com/github-tree/sponge/pkg/errcode"
+	rl "github.com/github-tree/sponge/pkg/shield/ratelimit"
 
 	"google.golang.org/grpc"
 )

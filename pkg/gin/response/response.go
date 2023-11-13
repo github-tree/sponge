@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/zhufuyi/sponge/pkg/errcode"
+	"github.com/github-tree/sponge/pkg/errcode"
 
 	"github.com/gin-gonic/gin"
 )

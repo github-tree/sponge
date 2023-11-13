@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhufuyi/sponge/pkg/gohttp"
-	"github.com/zhufuyi/sponge/pkg/utils"
+	"github.com/github-tree/sponge/pkg/gohttp"
+	"github.com/github-tree/sponge/pkg/utils"
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"

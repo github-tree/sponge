@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zhufuyi/sponge/pkg/replacer"
-	"github.com/zhufuyi/sponge/pkg/sql2code"
-	"github.com/zhufuyi/sponge/pkg/sql2code/parser"
+	"github.com/github-tree/sponge/pkg/replacer"
+	"github.com/github-tree/sponge/pkg/sql2code"
+	"github.com/github-tree/sponge/pkg/sql2code/parser"
 
 	"github.com/spf13/cobra"
 )

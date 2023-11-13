@@ -2,9 +2,9 @@
 package main
 
 import (
-	"github.com/zhufuyi/sponge/cmd/serverNameExample_httpExample/initial"
+	"github.com/github-tree/sponge/cmd/serverNameExample_httpExample/initial"
 
-	"github.com/zhufuyi/sponge/pkg/app"
+	"github.com/github-tree/sponge/pkg/app"
 )
 
 // @title serverNameExample api docs
